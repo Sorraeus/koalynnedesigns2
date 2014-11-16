@@ -1,0 +1,39 @@
+/* Koalynne Design Style Sheet
+
+	Author: Charles Gatz
+	Date:   April 12, 2014
+
+*/ 
+
+/*body styles*/
+
+body {
+	padding: 25px;
+	color: #FFC0CB;
+	font: 100% Tahoma Geneva sans-serif;
+	background-image: url("../img/background_tile.png");
+}
+
+.navbar-inner {
+
+	background-image: url("../img/background_tile.png");
+}
+
+.navbar {
+	color: #FFC0CB;
+	font: 100% Verdana Geneva sans-serif;
+
+}
+
+.logo{
+	padding: 0px;
+	position: relative;
+}
+
+.subscript{
+	display: none;
+	position: relative;
+	margin-left: 29%;
+	margin-top: -10%;
+
+}
