@@ -11,20 +11,19 @@ body {
 	padding: 25px;
 	color: #FFC0CB;
 	font: 100% Tahoma Geneva sans-serif;
-	background-image: url("../img/background_tile.png");
+	background-image: url("../img/background_tile.PNG");
 }
 
 .navbar-inner {
 
-	background-image: url("../img/background_tile.png");
+	background-image: url("../img/background_tile.PNG");
 	border: none;
+	font-family: 100% Tahoma Geneva sans-serif;
+
 }
 
 .navbar {
 	color: #FFC0CB;
-	font: 100% Verdana Geneva sans-serif;
-	
-
 }
 
 .logo{
@@ -40,6 +39,7 @@ body {
 
 }
 
+
 .hero-unit{
 	background-image: url("../img/DSCN0136.JPG");
 	background-size: 100%;
@@ -47,5 +47,6 @@ body {
 	height: 350px;
 	margin-bottom: 0px;
 
-
+hr{
+	color: #FFC0CB;
 }
