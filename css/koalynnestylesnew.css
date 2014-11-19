@@ -7,6 +7,11 @@
 
 /*body styles*/
 
+*{
+	background-image: ulr("../img/background_tile.PNG");
+}
+
+
 body {
 	padding: 25px;
 	color: #FFC0CB;
@@ -17,19 +22,17 @@ body {
 .navbar-inner {
 
 	background-image: url("../img/background_tile.PNG");
+	background-repeat: repeat;
 	border: none;
-	font-family: 100% Tahoma Geneva sans-serif;
-
+	
 }
 
 .navbar {
 	color: #FFC0CB;
+
 }
 
-.logo{
-	padding: 0px;
-	position: relative;
-}
+
 
 .subscript{
 	display: none;
@@ -39,24 +42,16 @@ body {
 
 }
 
-
-.hero-unit{
-	background-image: url("../img/DSCN0136.JPG");
-	background-size: 100%;
-	background-repeat: no-repeat;
-	height: 350px;
-	margin-bottom: 0px;
-
-hr {
+hr{
 	color: #FFC0CB;
 }
 
-ul {
+ul{
+
 	list-style: none;
 	float: left;
 	margin-left: 5%;
 }
-
-li {
+li{
 	display: inline;
 }
