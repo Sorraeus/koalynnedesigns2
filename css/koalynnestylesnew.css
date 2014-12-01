@@ -13,20 +13,22 @@
 body {
 	padding: 25px;
 	color: #FFC0CB;
-	background-image: url("../img/background_tile.PNG");
 }
 
 @font-face{
 
 	font-family: "Papyrus Regular";
-	src: url("../img/Papyrus.ttf");
+	src: url("../img/PAPYRUS.TTF");
 
 }
 
-.navbar {
 
-	margin-left: 32%;
-	font-family: Papyrus, Tahoma, sans-serif;
+
+.navbar {
+	position: relative;
+    margin-top: 1%;
+    margin-left: 30%;
+	font-family:"Papyrus Regular", Tahoma, sans-serif;
 
 
 }
@@ -35,15 +37,14 @@ body {
 	display: none;
 	position: relative;
 	float: left;
-	margin-left: 31%;
-	margin-top: -4%;
-
+	margin-left: 25%;
+	margin-top: -2%;
 }
 
 .subscript2{
 
-	margin-left: -7px;
-	margin-top: 1px;
+	margin-left: -12px;
+	margin-top: 6px;
 }
 
 hr{
@@ -57,7 +58,7 @@ hr{
 }
 
 ul{
-
+    
 	list-style: none;
 	float: left;
 }
@@ -68,7 +69,7 @@ li{
 .hero-unit{
 
 	background: transparent;
-	margin-top: 15%;
+	margin-top: 5%;
 
 }
 
@@ -87,15 +88,11 @@ li{
     
 }
 
-.Logo2{
-    
-    margin-top: -3%;
-	
-	
-}
+
 
 .nav {
 
+	margin-left: 23%;
 	padding: 0px;
 	height: 2px;
 
@@ -116,3 +113,4 @@ li{
 	margin-top: 1px;
 
 }
+
